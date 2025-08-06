@@ -1,0 +1,118 @@
+# Dataset - too large for git
+Dataset/
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch models and checkpoints
+*.pth
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+medgemma-*/
+
+# Training logs and outputs
+logs/
+runs/
+tensorboard/
+*.log
+training.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hugging Face
+.cache/
+transformers_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# API keys and secrets
+.env
+*.key
+token.txt
+secrets/
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Compiled extensions
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
